@@ -54,8 +54,12 @@ ui <- fluidPage(
                          img(src = "ANC.png", style = "width:100%;")),
                 
                 tabPanel("Study Results", 
-                         br(),
-                         img(src = "f1.jpg", style = "width:100%;")),
+                         tags$div(
+                           br(),
+                           tags$h5("Figure 2: Outcome rates, by step and health facility; first antenatal care visits  ", style = "font-size: 16px; font-weight: bold;"),
+                           tags$p("Each cell contains the proportion of women who received each specific antenatal care practice in the corresponding antenatal care clinics and steps. For each of the nine panels in this figure, the ten clinics are represented in the y-axis while the steps of the trial are represented in the x-axis. *When the denominator to compute the cell rate is 0, cells are coloured in white.  ", style = "font-size: 12px"),
+                           br(),br(), 
+                           img(src = "f1.jpg", style = "width:100%;"))),
                 
                 tabPanel("Code",
                          tabsetPanel(
