@@ -12,8 +12,6 @@ The app was developed to enhance scientific reproducibility by making the trial 
 
 The source code for this R Shiny app and the dataset are available for download within the app and at github.
 
-GitHub: https://github.com/ebergel/ANCMozambique
-
 Reference:
 
 AP Betrán,E. Bergel, S. Griffin,A. Melo, MH Nguyen, A. Carbonell,S. Mondlane,M. Merialdi,M. Temmerman, AM Gülmezoglu, A. German,F. Althabe,A. Biza,B. Crahay,L. Chavane,M. Colomar,T. Delvaux,U. Dyke Ali,L. Fersurela,D. Geelhoed,I. Jille-Taas,CR Malapende,C. Langa, NB Osman, J. Requejo and G. Timbe. Provision of medical supply kits to improve quality of antenatal care in Mozambique: a stepped-wedge cluster randomized trial. The Lancet Global Health. 2018;6(1):https://doi.org/10.1016/S2214-109X(17)30421-7.
