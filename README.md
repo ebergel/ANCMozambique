@@ -1,4 +1,4 @@
-# ANCMozambique
+# Antenatal Care in Mozambique:
  ## Interactive Stepped-Wedge Cluster Randomised Trial Data Analysis Tool
 
 #### Enhance scientific reproducibility
@@ -10,7 +10,9 @@ This app allows users to explore the trial data interactively through a pivot ta
 
 The app was developed to enhance scientific reproducibility by making the trial data accessible and analyzable for researchers, practitioners, and policymakers.
 
-The source code for this R Shiny app and the dataset are available for download within the app.
+The source code for this R Shiny app and the dataset are available for download within the app and at github.
+
+GitHub: https://github.com/ebergel/ANCMozambique
 
 Reference:
 
