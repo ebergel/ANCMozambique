@@ -1,50 +1,79 @@
-### Antenatal Care in Mozambique
-#### Interactive Stepped-Wedge Cluster Randomised Trial Data Analysis Tool
 
-#### To Enhance and Promote Scientific Reproducibility
-This Shiny app is designed to replicate the results of a Stepped-Wedge Pragmatic Cluster Randomized Controlled Trial conducted to improve the quality of antenatal care in Mozambique.
+# Antenatal Care in Mozambique: Interactive Stepped-Wedge Cluster Randomised Trial Data Analysis Tool
 
-The trial, published in The Lancet Global Health, evaluated the impact of providing medical supply kits to antenatal care clinics.
+## Overview
+This Shiny app replicates the results of a Stepped-Wedge Pragmatic Cluster Randomized Controlled Trial conducted to improve the quality of antenatal care in Mozambique. The trial, published in The Lancet Global Health, evaluated the impact of providing medical supply kits to antenatal care clinics.
 
-This app allows users to explore the trial data interactively through a pivot table widget, enabling them to analyze outcome measures such as blood pressure, proteinuria, and syphilis testing rates without requiring advanced statistical or programming skills.
+[Lancet Global Health paper](https://doi.org/10.1016/S2214-109X(17)30421-7)
 
-The app was developed to enhance scientific reproducibility by making the trial data accessible and analyzable for researchers, practitioners, and policymakers.
+## App Features
+- **Interactive Data Exploration**: Analyze outcome measures such as blood pressure, proteinuria, and syphilis testing rates through a pivot table widget.
+- **User-Friendly Interface**: Designed for users without advanced statistical or programming skills.
+- **Data Accessibility**: Enhance scientific reproducibility by making trial data accessible and analyzable for researchers, practitioners, and policymakers.
+- **Source Code and Dataset**: Available for download within the app and on GitHub.
 
-The source code for this R Shiny app and the dataset are available for download within the app and at github.
+## Trial Details
 
-Play with the App test instance at: https://ebergel.shinyapps.io/202407021245/
+High levels of maternal and newborn mortality and morbidity remain a challenge in many low-income countries. Several interventions delivered during antenatal care can improve outcomes, but stockouts of medical supplies often hinder implementation. This trial assessed whether a supply chain strategy based on the provision of kits could improve the quality of care.
 
+- **Study Design**: Pragmatic, stepped-wedge, cluster-randomized controlled trial at ten antenatal care clinics in Mozambique.
+- **Intervention**: Included kits with medical supplies, a cupboard to store supplies, a tracking sheet to monitor stocks, and a one-day training session.
+- **Primary Outcomes**: Proportion of women screened for anaemia and proteinuria, and the proportion who received mebendazole in the first antenatal care visit.
+- **Results**: Significant improvements in screening and treatment practices were observed.
 
-#### ...
-#### Lancet Global Health Paper:
-
-
-##### Reference:
-
-AP Betrán,E. Bergel, S. Griffin,A. Melo, MH Nguyen, A. Carbonell,S. Mondlane,M. Merialdi,M. Temmerman, AM Gülmezoglu, A. German,F. Althabe,A. Biza,B. Crahay,L. Chavane,M. Colomar,T. Delvaux,U. Dyke Ali,L. Fersurela,D. Geelhoed,I. Jille-Taas,CR Malapende,C. Langa, NB Osman, J. Requejo and G. Timbe. Provision of medical supply kits to improve quality of antenatal care in Mozambique: a stepped-wedge cluster randomized trial. The Lancet Global Health. 2018;6(1):https://doi.org/10.1016/S2214-109X(17)30421-7.
-
-
-#### Provision of medical supply kits to improve quality of antenatal care in Mozambique: a stepped-wedge cluster randomised trial
-
-Ana Pilar Betrán, Eduardo Bergel, Sally Griffin, Armando Melo, My Huong Nguyen, Alicia Carbonell, Santos Mondlane, Mario Merialdi, Marleen Temmerman, A Metin Gülmezoglu, for the WHO Antenatal Care Trial in Mozambique Research Group*
-
-##### Summary
-
-##### Background 
-High levels of maternal and newborn mortality and morbidity remain a daunting reality in many low- income countries. Several interventions delivered during antenatal care have been shown to improve maternal and newborn outcomes, but stockouts of medical supplies at point of care can prevent implementation of these services. We aimed to evaluate whether a supply chain strategy based on the provision of kits could improve quality of care.
-
-##### Methods
-We did a pragmatic, stepped-wedge, cluster-randomised controlled trial at ten antenatal care clinics in Mozambique. Clinics were eligible if they were not already implementing the proposed antenatal care package; they served at least 200 new pregnant women per year; they had Maternal and Child Health (MCH) nurses; and they were willing to participate. All women attending antenatal care visits at the participating clinics were included in the trial. Participating clinics were randomly assigned to shift from control to intervention on prespecified start dates. The intervention involved four components (kits with medical supplies, a cupboard to store these supplies, a tracking sheet to monitor stocks, and a one-day training session). The primary outcomes were the proportion of women screened for anaemia and proteinuria, and the proportion of women who received mebendazole in the first antenatal care visit. The intervention was delivered under routine care conditions, and analyses were done according to the intention-to-treat principle. This trial is registered with the Pan African Clinical Trial Registry, number PACTR201306000550192.
-
-##### Findings
-Between March, 2014, and January, 2016, 218 277 antenatal care visits were registered, with 68 598 first and 149 679 follow-up visits. We found significant improvements in all three primary outcomes. In first visits, 5519 (14·6%) of 37826 women were screened for anaemia in the control period, compared with 30057 (97·7%) of 30772 in the intervention period (adjusted odds ratio 832·40; 99% CI 666·81–1039·11; p<0·0001); 3739 (9·9%) of 37 826 women were screened for proteinuria in the control period, compared with 29874 (97·1%) of 30772 in the intervention period (1875·18; 1447·56–2429·11; p<0·0001); and 17926 (51·4%) of 34842 received mebendazole in the control period, compared with 24960 (88·2%) of 28294 in the intervention period (1·88; 1·70–2·09; p<0·0001). The effect was immediate and sustained over time, with negligible heterogeneity between sites.
-
-##### Figure 2: Outcome rates, by step and health facility; first antenatal care visits
-Each cell contains the proportion of women who received each specific antenatal care practice in the corresponding antenatal care clinics and steps. For each of the nine panels in this figure, the ten clinics are represented in the y-axis while the steps of the trial are represented in the x-axis. *When the denominator to compute the cell rate is 0, cells are coloured in white.
+## Access the App
+Play with the App test instance at: [https://ebergel.shinyapps.io/202407021245/](https://ebergel.shinyapps.io/202407021245/)
 
 
-![figure 2](f1.jpg)
+## App Screenshots
+
+![ <br> ](pivotTableSS.png)
+
+![ <br> ](trialResultsSS.png)
 
 
+## Repository Contents
+- `202407021245/`: Directory containing the Shiny app source code.
+- `data/`: Directory containing the dataset used in the app.
+- `README.md`: This file.
+- `LICENSE`: License for the repository.
 
+## Installation and Usage
+To run the app locally:
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/ebergel/ANCMozambique.git
+   ```
+2. Navigate to the app directory:
+
+   ```bash
+   cd ANCMozambique/202407021245
+   ```
+3. Install the required packages (if not already installed):
+
+   ```R
+   install.packages(c("shiny", "htmlwidgets", "dplyr", "rpivotTable", "shinyAce", "descr"))
+   ```
+4. Run the app:
+
+   ```R
+   shiny::runApp()
+   ```
+
+## Citation
+If you use this app or the dataset, please cite the original trial publication:
+Betrán, A.P., Bergel, E., Griffin, S., Melo, A., Nguyen, M.H., Carbonell, A., Mondlane, S., Merialdi, M., Temmerman, M., Gülmezoglu, A.M. (2018). Provision of medical supply kits to improve quality of antenatal care in Mozambique: a stepped-wedge cluster randomised trial. The Lancet Global Health, 6(1), e57-e65.
+
+## License
+
+[![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
+
+
+## Contact
+For any questions or issues, please contact Eduardo Bergel at X (Twitter): 
+[@BergelEduardo](https://twitter.com/BergelEduardo)
+
+####  <br> 
 

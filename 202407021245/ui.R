@@ -12,7 +12,7 @@ library(shinyAce)
 ui <- fluidPage(
   titlePanel("Antenatal Care in Mozambique:"),
   titlePanel("Interactive Stepped-Wedge Cluster Randomised Trial Data Analysis Tool"),
-  titlePanel("..."),
+  titlePanel(" "),
   mainPanel(
     tabsetPanel(type = "tabs",
 
@@ -76,7 +76,7 @@ ui <- fluidPage(
                 tabPanel("Contact", 
                          tags$div(
                            tags$p("...", style = "font-size: 16px;"),
-                           tags$p("Twitter: ", tags$a(href = "https://twitter.com/BergelEduardo", "@BergelEduardo"), style = "font-size: 16px;") ,  
+                           tags$p("X (Twitter): ", tags$a(href = "https://twitter.com/BergelEduardo", "@BergelEduardo"), style = "font-size: 16px;") ,  
                            tags$p("GitHub: ", tags$a(href = "https://github.com/ebergel/ANCMozambique", "https://github.com/ebergel/ANCMozambique"), style = "font-size: 16px;")   ),
                          )
     )
